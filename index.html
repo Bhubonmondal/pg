@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>pay list testing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>Screen 1</center>
+  
+  <form id="myForm">
+    <label for="option">Choose an option:</label>
+    <select id="option" name="option" required>
+      <option value="P">P</option>
+      <option value="B">B</option>
+      <option value="S">S</option>
+      <option value="T">T</option>
+    </select>
+    
+    <br><br>
+    
+    <label for="value">Enter a value:</label>
+    <input type="number" id="value" name="value" required>
+    
+    <br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="result" style="display: none;">
+      
+  <hr>
+  <center>Screen 2</center>
+    <h2>Pay List:</h2>
+    <table id="submittedTable">
+      <thead>
+        <tr>
+          <th>Who paid</th>
+          <th>P</th>
+          <th>B</th>
+          <th>S</th>
+          <th>T</th>
+        </tr>
+      </thead>
+      <tbody id="submittedBody"></tbody>
+    </table>
+
+  <hr>
+  <center>Screen 3</center>
+    <div>
+       <h3>We are on P's Phone</h3>
+              <p id="pb"></p>
+              <p id="ps"></p>
+              <p id="pt"></p>
+  </div>
+  </div>
+
+ 
+<script src="script.js"></script>
+</body>
+</html>
