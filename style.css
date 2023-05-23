@@ -51,3 +51,13 @@ th, td {
     padding: 8px;
   }
 }
+/* Styling for submit button, select option, and input type number */
+input[type="submit"],
+select,
+input[type="number"] {
+  font-size: 32px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
