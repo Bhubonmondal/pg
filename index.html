@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center>Screen 1</center>
-  
+
+
   <form id="myForm">
+    <center>Screen 1</center>
+    <hr>
     <label for="option">Choose an option:</label>
     <select id="option" name="option" required>
       <option value="P">P</option>
@@ -16,20 +18,21 @@
       <option value="T">T</option>
     </select>
     
-    <br><br>
+    <br>
     
     <label for="value">Enter a value:</label>
     <input type="number" id="value" name="value" required>
     
-    <br><br>
+    <br>
     
     <input type="submit" value="Submit">
   </form>
 
   <div id="result" style="display: none;">
       
-  <hr>
+  
   <center>Screen 2</center>
+  <hr>
     <h2>Pay List:</h2>
     <table id="submittedTable">
       <thead>
@@ -44,8 +47,9 @@
       <tbody id="submittedBody"></tbody>
     </table>
 
-  <hr>
+  
   <center>Screen 3</center>
+  <hr>
     <div>
        <h3>We are on P's Phone</h3>
               <p id="pb"></p>
