@@ -73,24 +73,24 @@ function updateSubmittedTable() {
        
        if(pb<0){
               pb=b+p
-              document.getElementById("pb").innerHTML="Pawan took "+pb+" rupees from Bhubon";
+              document.getElementById("pb").innerHTML="P "+pb+" rupees from B";
        }
        else{
-              document.getElementById("pb").innerHTML="Pawan pay "+pb+" to Bhubon";
+              document.getElementById("pb").innerHTML="P pay "+pb+" to B";
        }
        if(ps<0){
               ps=s+p
-              document.getElementById("ps").innerHTML="Pawan took "+ps+" rupees from Supriyo";
+              document.getElementById("ps").innerHTML="P took "+ps+" rupees from S";
        }
        else{
-              document.getElementById("ps").innerHTML="Pawan pay "+ps+" to Supriyo";
+              document.getElementById("ps").innerHTML="P pay "+ps+" to S";
        }
        if(pt<0){
               pt=t+p;
-              document.getElementById("pt").innerHTML="Pawan took "+pt+" rupees from Tarikul";
+              document.getElementById("pt").innerHTML="P took "+pt+" rupees from T";
        }
        else{
-              document.getElementById("pt").innerHTML="Pawan pay "+pt+" to Tarikul";
+              document.getElementById("pt").innerHTML="P pay "+pt+" to T";
        }
 
 
