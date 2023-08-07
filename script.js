@@ -73,7 +73,7 @@ function updateSubmittedTable() {
        
        if(pb<0){
               pb=b+p
-              document.getElementById("pb").innerHTML="P "+pb+" rupees from B";
+              document.getElementById("pb").innerHTML="P took"+pb+" rupees from B";
        }
        else{
               document.getElementById("pb").innerHTML="P pay "+pb+" to B";
